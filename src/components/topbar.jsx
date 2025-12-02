@@ -3,7 +3,7 @@ import logo from "../assets/logo.png"
 export default function TopBar() {
   return (
     <header className="flex items-center justify-center mt-6">
-      <div className="flex w-full max-w-4xl items-center justify-between rounded-xl border border-gray-300 bg-gray-200 px-6 shadow-md">
+      <div className="flex w-full max-w-5xl items-center justify-between rounded-xl border border-gray-300 bg-gray-200 px-6 shadow-md">
         <a href="#" className="text-lg font-semibold text-gray-900">
           <img src={logo} alt="logo" className="h-13 w-auto object-contain" />
         </a>
