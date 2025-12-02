@@ -1,19 +1,15 @@
 import {Routes, Route} from "react-router-dom"
-import TopBar from "./components/topbar"
-import MainText from "./components/mainText"  
-import Description from "./components/description"
+import Home from "./Routes/Home"
 
 function App() {
 
   return (
-    <div>
-          <TopBar/>
-          <MainText/>
-          <Description/>
+    <>
       <Routes>
-      
+          <Route/>
+          
       </Routes>
-    </div>
+    </>
   )
 }
 
